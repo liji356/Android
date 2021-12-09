@@ -1,0 +1,81 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:drawableLeft="@drawable/name"
+        android:layout_margin="8dp"
+        android:hint="Enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/add"
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="8dp"
+        android:hint="Enter your address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:id="@+id/ph"
+        android:drawableLeft="@drawable/phone"
+        android:layout_margin="8dp"
+        android:hint="Enter your Phone NO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="8dp"
+        android:hint="Enter your mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/user"
+        android:hint="Enter your  Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/key"
+        android:hint="Enter your password"/>
+
+
+
+    <EditText
+        android:id="@+id/com"
+        android:layout_margin="8dp"
+        android:hint="Enter your conform Password"
+        android:drawableLeft="@drawable/lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_margin="10dp"
+        android:id="@+id/reg"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Login Page"
+        android:layout_margin="10dp"
+        android:background="#6A4659"
+        android:id="@+id/back"/>
+
+
+</LinearLayout>
